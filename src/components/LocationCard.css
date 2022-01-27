@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+.card {
+    display: inline-block;
+    margin-left: 80px;
+    color: #ffffff;
+    width:350px;
+    border-radius:15px;
+    transition: all ease 0.5s;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+.card-footer {
+    background-color:teal;
+    margin-top: -10px;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-footer p {
+    margin-left:33px;
+    margin-top: 10px;
+    transform:translateY(-500%);
+    font-size:25px;
+}
+.card-footer h3 {
+    margin-left: 30px;
+    padding-top: 40px;
+    height: 150px;
+    font-size: 40px;
+}
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}

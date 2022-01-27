@@ -1,0 +1,34 @@
+.banner{
+    position:absolute;
+    margin-top:330px;
+    margin-left: 480px;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+    top:0;
+    
+   height: 50px;
+   position: absolute;
+   font-size:40px;
+   color: #fff;
+}
+.btn{
+    font-family: Antipasto Pro DemiBold;
+    text-decoration: none;
+    padding:25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 999px;
+    font-size:30px;
+    border:1px solid lightgray;
+    background-color: transparent;
+    color:azure;
+    margin-left: 150px;
+    margin-top: 20px;
+    transition: ease-in-out .35s;
+}
+.btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 25px;
+  background-color:azure;
+  color: black;
+}

@@ -1,0 +1,100 @@
+.header__logo {
+    margin-top:30px;
+    object-fit: contain;
+    height:50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.globe{
+    border-radius: 50%;
+}
+.globe:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header{
+    display:flex;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+    top:0;
+    font-family: Antipasto Pro DemiBold;
+   height: 50px;
+   position: absolute;
+   position:fixed;
+}
+
+.header__center{
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    padding: 10px;
+    height:30px;
+    border: 2px solid lightgray;
+    border-radius: 999px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header__center>input{
+    border:none;
+    width:500px;
+}
+input{
+    outline:none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+input:selected{
+    background-color:none;
+}
+.header__right{
+    margin-top:25px;
+    margin-top:none;   
+}
+.host{
+    margin-top:30px;
+    font-size:20px;
+    color: #fff;
+    margin-left: 50px;
+    font-family:Antipasto Pro DemiBold;
+    border-radius: 999px;
+    padding: 20px;
+    transition: all ease 0.5s;
+}
+.host:hover{
+    background-color:#e5e5e5;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.globe{
+    margin-left: 50px;
+    font-size:20px;
+    transform:translate(5%,27%);
+    transition: all ease 0.5s;
+}
+.acc{
+    
+    color:#fff;
+    margin-left: 50px;
+    display:flex;
+    align-items:center;
+    padding: 10px;
+    height:30px;
+    border: 2px solid lightgray;
+    border-radius: 999px;
+    margin-top:30px;
+    transition: all ease 0.5s;
+    justify-content: space-between;
+}
+.acc:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:#e5e5e5;
+    color: black;  
+}
+
+
+
+
